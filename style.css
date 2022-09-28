@@ -1,0 +1,244 @@
+body {
+    background-color: black;
+}
+
+:root {
+    --txtcolor: black;
+    --navbarcol: rgb(158, 0, 0);
+}
+
+.colnav {
+    background-color: var(--navbarcol);
+}
+
+.pho {
+    width: 50px;
+    color: black;
+}
+
+a {
+    color: rgb(158, 0, 0);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*old*/
+
+.slider {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.slider ul {
+    padding: 0;
+    width: 3500px;
+    list-style: none;
+    position: relative;
+    animation: sliding 21s ease-in-out infinite;
+}
+
+.slider ul li {
+    float: left;
+    position: relative;
+}
+
+@keyframes sliding {
+    0% {
+        left: 0;
+    }
+    15% {
+        left: -500px;
+    }
+    30% {
+        left: -1000px;
+    }
+    45% {
+        left: -1500px;
+    }
+    55% {
+        left: -2000px;
+    }
+    65% {
+        left: -2500px;
+    }
+    75% {
+        left: -3000px;
+    }
+    90% {
+        left: -3500px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+h5 {
+    color: var(--navbarcol);
+}
+
+#pho {
+    width: 500px;
+    height: 300px;
+}
+
+p {
+    color: var(--navbarcol);
+    font-size: large;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#img {
+    width: 100px;
+}
+
+.color {
+    color: rgb(158, 0, 0);
+}
+
+.by {
+    margin-top: 1200px;
+    margin-bottom: 30px;
+}
+
+.tr {
+    color: black;
+    background-color: rgb(158, 0, 0);
+}
+
+table {
+    width: auto;
+    height: auto;
+    font-size: medium;
+}
+
+.achie {
+    margin-top: 150px;
+}
+
+#home {
+    margin-bottom: 30px;
+}
+
+#Players {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    margin-right: 30px;
+}
+
+.logoss {
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.logos {
+    width: 100px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.logosss {
+    margin-right: 30px;
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sir {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 248px;
+}
+
+#legend {
+    width: 300px;
+}
+
+.legen {
+    font-size: smaller;
+}
+
+.alx {
+    margin-left: 200px;
+}
+
+.cr7 {
+    margin-right: 200px;
+}
+
+.ronal {
+    font-size: smaller;
+    width: 300px;
+}
+
+.lod {
+    margin-left: 700px;
+    margin-top: 200px;
+}
+
+.div {
+    margin-left: 40%;
+    margin-top: -20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(158, 0, 0);
+}
+
+.div .span {
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+input {
+    margin-top: 500px;
+    margin-left: 45%;
+    background-color: rgb(158, 0, 0);
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+
+.div::before {
+    content: "";
+    position: absolute;
+    left: 15%;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(158, 0, 0);
+    animation: move 4s linear infinite;
+    mix-blend-mode: difference;
+}
+
+@keyframes move {
+    0% {
+        width: 0;
+    }
+    30% {
+        width: 30%;
+    }
+    60% {
+        width: 60%;
+    }
+    80% {
+        width: 80%;
+    }
+    100% {
+        width: 100%;
+    }
+}
